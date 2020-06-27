@@ -1,0 +1,43 @@
+.gameBoard {
+  height: 500px;
+  width: 500px;
+  background-image: url("https://lh3.googleusercontent.com/proxy/7eT3qJQ7KPS-Kt4sdzFInYC8vupjVBaskWj2nhuBTijevuR5E-3GG41svubwB0nC8KTTKHjj4IpaqPZBpZ9JOaKlHUhOGFpyWoKY7UUL7SWSEZe1nKI2gxtqVLNp6a3Y8sk");
+  background-size: 600px 500px;
+  background-position: center;
+}
+
+.wrapper {
+  position: relative;
+  height: 500px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tile {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/1/1b/Crossing_the_River_Styx.jpg);
+  background-position: 50% 46%;
+  background-attachment: fixed;
+}
+
+#endTextContainer {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  display: none;
+}
+
+.endText {
+  color: red;
+  text-align: center;
+  font-size: 35px;
+  font-family: Trattatello, fantasy;
+}
